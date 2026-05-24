@@ -23,7 +23,7 @@ public class Persona {
     private String nombre;
 
     @Column(name="dui",nullable=false, unique=true, length=10)
-    private String DUI;
+    private String dui;
 
     @Column(name="telefono", nullable = false, length=10)
     private String telefono;

@@ -1,4 +1,9 @@
 package org.example.laboratorio02.Repository;
 
-public class iDireccionRepository {
+import org.example.laboratorio02.Model.Direccion;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface iDireccionRepository extends JpaRepository<Direccion, Long> {
 }
